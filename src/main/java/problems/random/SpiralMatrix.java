@@ -1,6 +1,11 @@
 package problems.random;
 
 public class SpiralMatrix {
+    /*
+        Print matrix spirally
+        XY
+        MB ==> XYBM
+     */
     public static void main(String[] args) {
         char[][] m = {{'X', 'Y'}, {'M', 'B'}};
         //char[][] m = {{'X', 'Y', 'A'}, {'M', 'B', 'C'}};
